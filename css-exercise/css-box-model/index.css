@@ -10,6 +10,22 @@ body {
   /*margin: 0 auto 0 auto;*/
   margin: 50px auto 0;
 }
+.gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(112, 73, 186, 0.6785938262939453),
+    rgba(233, 80, 149, 0.3910938262939453)
+  ) !important ;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  -webkit-box-shadow: -4px 17px 42px -5px rgba(171, 34, 171, 1);
+  -moz-box-shadow: -4px 17px 42px -5px rgba(171, 34, 171, 1);
+  box-shadow: -4px 17px 42px -5px rgba(171, 34, 171, 1);
+}
 .left-bar {
   width: 200px;
   float: left;
@@ -24,7 +40,7 @@ body {
   float: left;
   padding: 5%;
   margin-right: 3%;
-  background-color: blueviolet;
+  background-color: rgb(210, 208, 208);
   border-radius: 10px;
 }
 
