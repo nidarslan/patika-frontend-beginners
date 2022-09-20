@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 10px;
+  width: 1000px;
+  /* margin-left: auto;
+  margin-right: auto;*/ /* sag sol bosluk*/
+  /*margin: 0 auto 0 auto;*/
+  margin: 50px auto 0;
+}
+.left-bar {
+  width: 200px;
+  float: left;
+}
+.content {
+  width: 800px;
+  float: left;
+}
+
+.card {
+  width: 20%;
+  float: left;
+  padding: 5%;
+  margin-right: 3%;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+
+.clear {
+  clear: both; /*kutuların saginda artık bir sey yer almaz*/
+}
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 10px; /*yazıları bosluklu yazdık */
+
+  /*margin: 10px; iki kutuyu ayırabildik */
+  float: left; /*kutuların dizilim sekli */
+  margin-right: 50px;
+}
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-purple {
+  background-color: plum;
+}
