@@ -1,0 +1,58 @@
+header {
+  background-color: rgb(126, 87, 94);
+  padding: 10px 10px 10px 20px;
+  display: flex; /* display: block -> default */
+}
+
+.page-header {
+  color: bisque;
+  display: flex; /* display:block -> default */
+  align-items: center;
+}
+
+.yemek-ismi {
+  text-align: center;
+}
+
+.tarif {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.row.img {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: center;
+}
+
+.row.content {
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.not {
+  display: block;
+  text-align: end;
+}
+
+.social {
+  align-items: end;
+  padding-left: 900px;
+  display: flex;
+  /*fare üzerine geldiğinde ki geçiş hızı*/
+}
+.social a {
+  color: bisque;
+}
+
+.social a:hover {
+  font-size: xx-large;
+}
